@@ -13,7 +13,11 @@ To start a web server for the application, run:
 
     lein run
 
-then go to [http://localhost:3000](http://localhost:3000)
+to test, send a GET request with 2 query parameters, scrambledString for the string ann word to check inside the string. Example
+
+    curl --request GET https://localhost:3000/?scrambledString=cedewaraaossoqqyt&word=codewars
+
+the request will return a boolean value indicating if the word can be formed with all the letter in the string.
 
 ## License
 

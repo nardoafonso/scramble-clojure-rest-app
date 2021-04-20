@@ -31,7 +31,7 @@
   {:status  200
   :headers {"Content-Type" "text/html"}
   :body (->
-      (str (scrambled? (:scrambleString (:params req)) (:word (:params req))))
+      (str (scrambled? (:scrambledString (:params req)) (:word (:params req))))
     )
   }
 )
