@@ -13,7 +13,7 @@ To start a web server for the application, run:
 
     lein run
 
-then go to (http://localhost:3000)[http://localhost:3000]
+then go to [http://localhost:3000]
 
 ## License
 
